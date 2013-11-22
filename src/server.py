@@ -106,7 +106,7 @@ class WebServer(object):
   
   def imageToMap(self, path):
     # Get rid of .png
-    path = stripExtension(path)
+    path = self.stripExtension(path)
     return self.mapDir + "/" + path + ".csv"
   
   def entry(self, path):
