@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+  color: #0A77E6;
+}
+
+a:hover {
+  color: #065C88;
+}
+
+.content-header {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-size: 38px;
+}
+
+.content-subheader {
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.content-list {
+  margin-top: 10px;
+  margin-left: 5px;
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+  font-family: Cambria, Georgia, serif;
+}
+
+.content-text {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Cambria, Georgia, serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.content-table {
+  font-size: 22px;
+  text-decoration: none;
+  font-family: Cambria, Georgia, serif;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.content-table td {
+  padding-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content-table tr.even {
+  background-color: #DFDFDF
+}
+
+.content-map-image {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.map-image {
+  border: 2px solid #0A77E6;
+}
+
+.content-button {
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 20px;
+  color: #0A77E6;
+  text-decoration: none; 
+  font-family: Cambria, Georgia, serif;
+}
+
+.content-button:hover {
+  background-color: #DFDFDF;
+}
