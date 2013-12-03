@@ -139,7 +139,7 @@ class WebServer(object):
       return self.noEntries()
     else:
       result = ""
-      for f in files:
+      for f in sorted(files):
         result += self.entry(f)
       return result
 
